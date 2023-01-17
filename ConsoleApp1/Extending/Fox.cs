@@ -19,6 +19,11 @@ namespace ConsoleApp1.Extending
             this.color = color;
         }
 
+        public override string? ToString()
+        {
+            return base.ToString();
+        }
+
         public new void Run()
         {
             Console.WriteLine("Run like a fox");
